@@ -13,6 +13,6 @@ The things that will be reviewed are:
   5. How many customers remain actively transacting?
 
 The tables used in this project are:
-  orders_1 : Contains data related to sales transactions for quarter 1 period (Jan – Mar 2004)
-  orders_2 : Contains data related to sales transactions for the 2nd quarter period (Apr – Jun 2004)
-  customer : Contains customers' profile data that register as xyz.com's customer
+ 1. orders_1 : Contains data related to sales transactions for quarter 1 period (Jan – Mar 2004)
+ 2. orders_2 : Contains data related to sales transactions for the 2nd quarter period (Apr – Jun 2004)
+ 3. customer : Contains customers' profile data that register as xyz.com's customer
