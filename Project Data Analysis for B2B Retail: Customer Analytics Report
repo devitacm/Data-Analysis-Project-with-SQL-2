@@ -4,7 +4,6 @@ SELECT
   SUM(quantity*priceeach) AS revenue
 FROM orders_1
 WHERE status = 'shipped';
-
 SELECT
   SUM(quantity) AS total_penjualan,
   SUM(quantity*priceeach) AS revenue
@@ -22,7 +21,7 @@ FROM (
 WHERE status = 'shipped'
 GROUP BY quarter;
 
-#Is the number od xyz.com's customers increasing?
+#Is the number of xyz.com's customers increasing?
 SELECT 
   quarter, COUNT(DISTINCT customerID) AS total_customers
 FROM (
